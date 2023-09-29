@@ -6,7 +6,7 @@ namespace ContosoUniversityTARpe21.Data
     {
         public static void Initialize(SchoolContext context)
         {
-            context.Database.EnsureCreated();
+            //context.Database.EnsureCreated();
 
             if (context.Students.Any())
             {
